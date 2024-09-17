@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="137.0" prefWidth="373.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.ControleExport">
+   <children>
+      <Text layoutX="41.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exportation réussie">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="24.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exportation effectuée avec succès. Le(s) fichier(s) ont bien été exporté dans le format souhaité." wrappingWidth="324.060546875" />
+      <SVGPath content="M800,510a30,30,0,1,1,30-30A30,30,0,0,1,800,510Zm-16.986-23.235a3.484,3.484,0,0,1,0-4.9l1.766-1.756a3.185,3.185,0,0,1,4.574.051l3.12,3.237a1.592,1.592,0,0,0,2.311,0l15.9-16.39a3.187,3.187,0,0,1,4.6-.027L817,468.714a3.482,3.482,0,0,1,0,4.846l-21.109,21.451a3.185,3.185,0,0,1-4.552.03Z" fill="#699f4c" fillRule="EVEN_ODD" layoutX="-775.0" layoutY="-459.0" scaleX="0.3" scaleY="0.3" />
+      <Button fx:id="okExport" layoutX="299.0" layoutY="98.0" mnemonicParsing="false" onAction="#boutonExportOk" prefHeight="25.0" prefWidth="49.0" style="-fx-background-color: #de350a;" text="OK" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="191.0" prefWidth="198.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="25.0" prefWidth="398.0" />
+            <AnchorPane fx:id="anchorMain" prefHeight="233.0" prefWidth="398.0" style="-fx-border-color: black;" />
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <AnchorPane prefHeight="288.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <AnchorPane prefHeight="288.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="retour" mnemonicParsing="false" text="Retour">
+               <HBox.margin>
+                  <Insets bottom="20.0" left="40.0" right="50.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="export" mnemonicParsing="false" text="Export">
+               <HBox.margin>
+                  <Insets bottom="20.0" left="50.0" right="40.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

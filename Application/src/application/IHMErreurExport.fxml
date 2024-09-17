@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="386.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.ControleExport">
+   <children>
+      <SVGPath content="M12 0l-12 12 12 12 12-12-12-12zm-1 6h2v8h-2v-8zm1 12.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z" fill="RED" layoutX="14.0" layoutY="14.0" />
+      <Text layoutX="49.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Erreur d'exportation">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="26.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Erreur d'exportation : Impossible de générer le fichier PNG de l'histogramme. Veuillez vérifier votre connexion intenet et réessayer. Si le problème persiste, veuillez contacter notre équipe de support technique afin d'obtenir de l'aide" wrappingWidth="325.115234375" />
+      <Button fx:id="okExport" layoutX="313.0" layoutY="111.0" mnemonicParsing="false" onAction="#boutonExportOk" prefHeight="25.0" prefWidth="49.0" style="-fx-background-color: #de350a;" text="OK" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
